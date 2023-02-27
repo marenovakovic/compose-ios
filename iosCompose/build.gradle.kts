@@ -48,7 +48,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                project(":shared")
+                implementation(project(":shared"))
                 implementation(compose.ui)
                 implementation(compose.foundation)
                 implementation(compose.material)
