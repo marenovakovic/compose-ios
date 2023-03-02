@@ -20,7 +20,7 @@ internal fun ExampleApplication() {
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center,
                 ) {
-                    Text("From Compose! 15")
+                    Text("From Compose!")
                 }
             },
         )
